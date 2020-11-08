@@ -1,0 +1,152 @@
+body {
+	
+		padding: 0;
+		margin: 0;
+		background-color: rgba(0,0,0,0.1);
+		font-family: 'Titillium Web', sans-serif;
+
+}
+.container{
+	padding:10px;
+	width:380px;
+	height: 700px;
+	border-style: solid;
+	border-color:4px  black;
+	border-radius: 10px;
+	box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+	margin:0 auto;
+	
+    
+	margin-top: 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://github.com/CodeExplainedRepo/To-Do-List/blob/master/img/bg2.jpg?raw=true');
+	position: relative;
+}
+
+.head{
+	text-align: center;
+	width: 380px;
+    height:270px;
+    
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 3rem;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.3);
+}
+
+
+ .helpText {
+	
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1;
+	width: 89%;
+	padding: 20px;
+  }
+
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: hsl(188, 31%, 77%);
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: black;
+	background-color: #76CFE0;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
+}
+
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+	
+}
+
+
+li {
+	
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #006eff;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	margin-top: 50px;
+	margin-left: 30px;
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 15px;
+	border: none;
+	align-items: center;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
